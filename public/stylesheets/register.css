@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+
+#main
+{
+    width: 100%;
+}
+
+#page1
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(2, 2, 35);
+}
+
+#nav
+{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+#nav h3
+{
+    font-size: 25px;
+}
+
+#nav a 
+{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#rest
+{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text]
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
+
+input[type=email]
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
+
+input[type=password]
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
+
+label
+{
+    color: #fff;
+    font-size: 15px;
+}
+
+button
+{
+    background-color: #0eb7f4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 16px;
+    border-radius: 10px;
+}
